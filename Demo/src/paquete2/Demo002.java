@@ -11,6 +11,9 @@ public class Demo002 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // Se almaceno el mensaje en una variable y con una estructura 
+        // condicional if el usuario selecciona si desea mostrar el mensaje en
+        // mayusculas o minusculas
         Scanner sc = new Scanner (System.in);
         String cadena1= Mensaje.obtenerMensaje();
         int habitantes= Informacion.obtenerHabitantes();
